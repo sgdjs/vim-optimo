@@ -37,12 +37,12 @@ call s:amap(  'gt', 'gj'     )    "on préserve les variantes avec 'g'
 call s:amap(  'gs', 'gk'     )    "on préserve les variantes avec 'g'
 call s:amap(  'zt', 'zj'     )    "on préserve les variantes avec 'z'
 call s:amap(  'zs', 'zk'     )    "on préserve les variantes avec 'z'
-call s:amap(   'h',  't'     )    "{t} devient [h] pour être proche de [f]
-call s:amap(   'H',  'T'     )    "idem pour {T} et [H]
+call s:amap(   'h',  'r'     )    "{r} devient [h] # pour être proche de [f]
+call s:amap(   'H',  'R'     )    "R # idem pour {T} et [H]
 call s:amap(   'l',  'c'     )    "{c} devient [l]
 call s:amap(   'L',  'C'     )    "{C} devient [L]
-call s:amap(   'j',  'r'     )    "{j} devient [r]
-call s:amap(   'J',  'R'     )    "{J} devient [R]
+call s:amap(   'j',  't'     )    "{j} devient [t]
+call s:amap(   'J',  'T'     )    "{J} devient [T]
 call s:amap(   'k',  's'     )    "{k} devient [s]
 call s:amap(   'K',  'S'     )    "{h} devient [S]
 call s:amap(   'gb', 'gT'    )    "le couple [gb]/[gé] agit sur les tabs
