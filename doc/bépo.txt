@@ -5,6 +5,8 @@ Licence: licence MIT
 
 Ce plugin n’est disponible que si 'compatible' n’est pas activé
 
+Modifié pour optimo
+
 
 INTRODUCTION                                    *bépo*
 

@@ -56,22 +56,22 @@ call s:amap(   ';',  ','     )    "idem pour [,] et [;]
 call s:amap(   ',',  ';'     )    "qui sont permutés
 call s:amap(  'g,',  'g;'    )    "idem pour [g,] et [g;]
 call s:amap(  'g;',  'g,'    )    "qui sont permutés
-call s:amap(   'é',  'w'     )    "[w] est peu accessible, on utilise [é]
-call s:amap(   'É',  'W'     )    "idem pour [W] et [É]
-call s:tomap( 'aé',  'aw'    )    "idem pour [aw] et [aé]
-call s:tomap( 'aÉ',  'aW'    )    "idem pour [aW] et [aÉ]
-call s:tomap( 'ié',  'iw'    )    "idem pour [iw] et [ié]
-call s:tomap( 'iÉ',  'iW'    )    "idem pour [iW] et [iÉ]
-call s:amap(   'w',  '<C-w>' )    "[w] est libre pour faire <C-w>
-call s:amap(   'W',  '<C-w><C-w>') "et [w] pour faire <C-w><C-w>
-call s:amap(  'wc', '<C-w>h' )    "on map [w]+direction
-call s:amap(  'wt', '<C-w>j' )    "on map [w]+direction
-call s:amap(  'ws', '<C-w>k' )    "on map [w]+direction
-call s:amap(  'wr', '<C-w>l' )    "on map [w]+direction
-call s:amap(  'wC', '<C-w>H' )    "idem pour les majuscules
-call s:amap(  'wT', '<C-w>J' )    "idem pour les majuscules
-call s:amap(  'wS', '<C-w>K' )    "idem pour les majuscules
-call s:amap(  'wR', '<C-w>L' )    "idem pour les majuscules
-call s:amap(  'wh', '<C-w>s' )    "crée un split _h_orizontal
-call s:amap(  'wé', '<C-w>t' )    "va en haut à gauche
-call s:amap(  'wÉ', '<C-w>T' )    "déplace sur un nouveau tab
+"    call s:amap(   'é',  'w'     )    "[w] est peu accessible, on utilise [é]
+"    call s:amap(   'É',  'W'     )    "idem pour [W] et [É]
+"    call s:tomap( 'aé',  'aw'    )    "idem pour [aw] et [aé]
+"    call s:tomap( 'aÉ',  'aW'    )    "idem pour [aW] et [aÉ]
+"    call s:tomap( 'ié',  'iw'    )    "idem pour [iw] et [ié]
+"    call s:tomap( 'iÉ',  'iW'    )    "idem pour [iW] et [iÉ]
+"    call s:amap(   'w',  '<C-w>' )    "[w] est libre pour faire <C-w>
+"    call s:amap(   'W',  '<C-w><C-w>') "et [w] pour faire <C-w><C-w>
+"    call s:amap(  'wc', '<C-w>h' )    "on map [w]+direction
+"    call s:amap(  'wt', '<C-w>j' )    "on map [w]+direction
+"    call s:amap(  'ws', '<C-w>k' )    "on map [w]+direction
+"    call s:amap(  'wr', '<C-w>l' )    "on map [w]+direction
+"    call s:amap(  'wC', '<C-w>H' )    "idem pour les majuscules
+"    call s:amap(  'wT', '<C-w>J' )    "idem pour les majuscules
+"    call s:amap(  'wS', '<C-w>K' )    "idem pour les majuscules
+"    call s:amap(  'wR', '<C-w>L' )    "idem pour les majuscules
+"    call s:amap(  'wh', '<C-w>s' )    "crée un split _h_orizontal
+"    call s:amap(  'wé', '<C-w>t' )    "va en haut à gauche
+"    call s:amap(  'wÉ', '<C-w>T' )    "déplace sur un nouveau tab
